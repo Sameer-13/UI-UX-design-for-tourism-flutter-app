@@ -1,5 +1,5 @@
 // ignore_for_file: prefer_const_constructors
-
+import 'package:google_fonts/google_fonts.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -12,7 +12,7 @@ void main() {
           onPressed: null,
           // ignore: sort_child_properties_last
           child: const Icon((Icons.add), color: Colors.white),
-          backgroundColor: Colors.lightGreen,
+          backgroundColor: Color.fromARGB(255, 7, 133, 168),
           elevation: 10,
         ),
         body: CustomCard(),
@@ -36,15 +36,17 @@ class CustomCard extends StatelessWidget {
             const SizedBox(
               height: 70,
             ),
-            const SizedBox(
+            SizedBox(
               height: 100,
               child: Text(
                 'Groups',
                 textAlign: TextAlign.center,
-                style: TextStyle(
-                    color: Colors.black,
-                    fontSize: 50,
-                    fontWeight: FontWeight.bold),
+                style: GoogleFonts.righteous(
+                  textStyle: TextStyle(
+                      color: Color.fromARGB(255, 7, 133, 168),
+                      fontSize: 50,
+                      fontWeight: FontWeight.bold),
+                ),
               ),
             ),
             Center(
@@ -78,7 +80,8 @@ class CustomCard extends StatelessWidget {
                             focusElevation: 50,
                             onPressed: null,
                             // ignore: sort_child_properties_last
-                            icon: const Icon((Icons.add), color: Colors.white),
+                            icon: const Icon((Icons.person_add_alt_1),
+                                color: Colors.white),
                             label: Text('6/8', style: TextStyle(fontSize: 20)),
                             backgroundColor: Colors.black,
                             elevation: 10,
@@ -121,7 +124,8 @@ class CustomCard extends StatelessWidget {
                             focusElevation: 50,
                             onPressed: null,
                             // ignore: sort_child_properties_last
-                            icon: const Icon((Icons.add), color: Colors.white),
+                            icon: const Icon((Icons.person_add_alt_1),
+                                color: Colors.white),
                             label: Text('7/10', style: TextStyle(fontSize: 20)),
                             backgroundColor: Colors.black,
                             elevation: 10,
@@ -164,7 +168,8 @@ class CustomCard extends StatelessWidget {
                             focusElevation: 50,
                             onPressed: null,
                             // ignore: sort_child_properties_last
-                            icon: const Icon((Icons.add), color: Colors.white),
+                            icon: const Icon((Icons.person_add_alt_1),
+                                color: Colors.white),
                             label: Text('6/9', style: TextStyle(fontSize: 20)),
                             backgroundColor: Colors.black,
                             elevation: 10,
@@ -207,7 +212,8 @@ class CustomCard extends StatelessWidget {
                             focusElevation: 50,
                             onPressed: null,
                             // ignore: sort_child_properties_last
-                            icon: const Icon((Icons.add), color: Colors.white),
+                            icon: const Icon((Icons.person_add_alt_1),
+                                color: Colors.white),
                             label: Text('8/12', style: TextStyle(fontSize: 20)),
                             backgroundColor: Colors.black,
                             elevation: 10,
@@ -250,7 +256,8 @@ class CustomCard extends StatelessWidget {
                             focusElevation: 50,
                             onPressed: null,
                             // ignore: sort_child_properties_last
-                            icon: const Icon((Icons.add), color: Colors.white),
+                            icon: const Icon((Icons.person_add_alt_1),
+                                color: Colors.white),
                             label: Text('5/10', style: TextStyle(fontSize: 20)),
                             backgroundColor: Colors.black,
                             elevation: 10,
