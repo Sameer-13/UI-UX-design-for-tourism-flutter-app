@@ -74,13 +74,14 @@ class CustomCard extends StatelessWidget {
                                 fontSize: 34,
                                 fontWeight: FontWeight.bold),
                           ),
-                          Text(
-                            '4/5',
-                            textAlign: TextAlign.right,
-                            style: TextStyle(
-                                color: Colors.white,
-                                fontSize: 34,
-                                fontWeight: FontWeight.bold),
+                          FloatingActionButton.extended(
+                            focusElevation: 50,
+                            onPressed: null,
+                            // ignore: sort_child_properties_last
+                            icon: const Icon((Icons.add), color: Colors.white),
+                            label: Text('6/8', style: TextStyle(fontSize: 20)),
+                            backgroundColor: Colors.black,
+                            elevation: 10,
                           ),
                         ],
                       ),
@@ -116,13 +117,14 @@ class CustomCard extends StatelessWidget {
                                 fontSize: 34,
                                 fontWeight: FontWeight.bold),
                           ),
-                          Text(
-                            '6/10',
-                            textAlign: TextAlign.right,
-                            style: TextStyle(
-                                color: Colors.white,
-                                fontSize: 34,
-                                fontWeight: FontWeight.bold),
+                          FloatingActionButton.extended(
+                            focusElevation: 50,
+                            onPressed: null,
+                            // ignore: sort_child_properties_last
+                            icon: const Icon((Icons.add), color: Colors.white),
+                            label: Text('7/10', style: TextStyle(fontSize: 20)),
+                            backgroundColor: Colors.black,
+                            elevation: 10,
                           ),
                         ],
                       ),
@@ -158,13 +160,14 @@ class CustomCard extends StatelessWidget {
                                 fontSize: 34,
                                 fontWeight: FontWeight.bold),
                           ),
-                          Text(
-                            '5/8',
-                            textAlign: TextAlign.right,
-                            style: TextStyle(
-                                color: Colors.white,
-                                fontSize: 34,
-                                fontWeight: FontWeight.bold),
+                          FloatingActionButton.extended(
+                            focusElevation: 50,
+                            onPressed: null,
+                            // ignore: sort_child_properties_last
+                            icon: const Icon((Icons.add), color: Colors.white),
+                            label: Text('6/9', style: TextStyle(fontSize: 20)),
+                            backgroundColor: Colors.black,
+                            elevation: 10,
                           ),
                         ],
                       ),
@@ -200,13 +203,14 @@ class CustomCard extends StatelessWidget {
                                 fontSize: 34,
                                 fontWeight: FontWeight.bold),
                           ),
-                          Text(
-                            '5/7',
-                            textAlign: TextAlign.right,
-                            style: TextStyle(
-                                color: Colors.white,
-                                fontSize: 34,
-                                fontWeight: FontWeight.bold),
+                          FloatingActionButton.extended(
+                            focusElevation: 50,
+                            onPressed: null,
+                            // ignore: sort_child_properties_last
+                            icon: const Icon((Icons.add), color: Colors.white),
+                            label: Text('8/12', style: TextStyle(fontSize: 20)),
+                            backgroundColor: Colors.black,
+                            elevation: 10,
                           ),
                         ],
                       ),
@@ -242,13 +246,14 @@ class CustomCard extends StatelessWidget {
                                 fontSize: 34,
                                 fontWeight: FontWeight.bold),
                           ),
-                          Text(
-                            '5/6',
-                            textAlign: TextAlign.right,
-                            style: TextStyle(
-                                color: Colors.white,
-                                fontSize: 34,
-                                fontWeight: FontWeight.bold),
+                          FloatingActionButton.extended(
+                            focusElevation: 50,
+                            onPressed: null,
+                            // ignore: sort_child_properties_last
+                            icon: const Icon((Icons.add), color: Colors.white),
+                            label: Text('5/10', style: TextStyle(fontSize: 20)),
+                            backgroundColor: Colors.black,
+                            elevation: 10,
                           ),
                         ],
                       ),
