@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 void main() {
   runApp(
@@ -26,15 +27,17 @@ class CustomCard extends StatelessWidget {
             const SizedBox(
               height: 70,
             ),
-            const SizedBox(
+            SizedBox(
               height: 100,
               child: Text(
-                'Hot spots',
+                'Hot spot',
                 textAlign: TextAlign.center,
-                style: TextStyle(
-                    color: Colors.black,
-                    fontSize: 50,
-                    fontWeight: FontWeight.bold),
+                style: GoogleFonts.righteous(
+                  textStyle: TextStyle(
+                      color: Color.fromARGB(255, 7, 133, 168),
+                      fontSize: 50,
+                      fontWeight: FontWeight.bold),
+                ),
               ),
             ),
             Center(
@@ -78,10 +81,12 @@ class CustomCard extends StatelessWidget {
                 margin: const EdgeInsets.all(20),
                 width: double.infinity,
                 decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(15.0),
-                    image: const DecorationImage(
-                        fit: BoxFit.cover,
-                        image: AssetImage("assets/images/th.jpeg"))),
+                  borderRadius: BorderRadius.circular(15.0),
+                  image: const DecorationImage(
+                    fit: BoxFit.cover,
+                    image: AssetImage("assets/images/th.jpeg"),
+                  ),
+                ),
                 child: Padding(
                   padding: const EdgeInsets.all(20.0),
                   child: Column(
