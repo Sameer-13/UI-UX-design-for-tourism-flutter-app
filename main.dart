@@ -5,6 +5,11 @@ import 'package:flutter/material.dart';
 void main() {
   runApp(
     MaterialApp(
+      title: "Groups screen",
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
+        scaffoldBackgroundColor: Colors.white,
+      ),
       home: Scaffold(
         backgroundColor: Colors.blueGrey,
         floatingActionButton: FloatingActionButton(
